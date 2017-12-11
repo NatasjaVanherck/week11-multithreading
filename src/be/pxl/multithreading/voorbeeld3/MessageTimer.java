@@ -10,7 +10,7 @@ public class MessageTimer {
 	public static void main(String[] args) {
 		Timer timer = new Timer(true);
 		
-		ZonedDateTime dateTime = ZonedDateTime.now().plusMinutes(1);
+		ZonedDateTime dateTime = ZonedDateTime.now().plusSeconds(5);
 		long period = TimeUnit.MILLISECONDS.convert(30, TimeUnit.SECONDS);
 		
 		timer.schedule(new AllesOnderControle(), Date.from(dateTime.toInstant()), period);
