@@ -8,8 +8,6 @@ public class KoekjesBakken {
 		new Kind("Bram", koekjesdoos).start();
 		new Kind("Ann", koekjesdoos).start();
 		new Kind("Sofie", koekjesdoos).start();
-		//new Kind("Tom", koekjesdoos).start();
-		
-		
+		new Kind("Tom", koekjesdoos).start();			
 	}
 }
